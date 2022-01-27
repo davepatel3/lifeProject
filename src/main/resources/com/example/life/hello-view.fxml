@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+
+<AnchorPane id="AnchorPane" fx:id="aPane" prefHeight="600" prefWidth="1200" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.life.HelloController">
+    <children>
+        <Button fx:id="button" layoutX="863.0" layoutY="30.0" onAction="#handleStart" text="Start Simulation" />
+
+        <GridPane fx:id="gPane" layoutX="14.0" layoutY="0.0">
+
+        </GridPane>
+        <Button layoutX="894.0" layoutY="64.0" mnemonicParsing="false" onAction="#handleAddAnt" text="Add Ant" />
+
+
+    </children>
+</AnchorPane>
